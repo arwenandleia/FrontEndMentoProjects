@@ -1,3 +1,5 @@
+import avatarJessica from "../../../assets/FrontEndMentor/SocialLinksProfile/avatar-jessica.jpeg";
+
 const SocialLinksProfileButton = ({ buttonText }) => (
 	<button className="text-SocialLinksProfile-white w-full bg-SocialLinksProfile-grey700 text-center py-3 hover:bg-SocialLinksProfile-green hover:text-SocialLinksProfile-grey900 rounded-lg font-semibold text-sm">
 		{buttonText}
@@ -17,7 +19,7 @@ const SocialLinksProfile = () => {
 		<div className="w-full h-full bg-SocialLinksProfile-grey900 p-6 rounded-2xl">
 			<div className="max-w-[375px]  flex flex-col items-center mx-auto  bg-SocialLinksProfile-grey800 rounded-xl">
 				<img
-					src="public/FrontEndMentor/SocialLinksProfile/avatar-jessica.jpeg"
+					src={avatarJessica}
 					alt="profile image"
 					className="rounded-full size-24 mt-8"
 				/>
