@@ -9,7 +9,7 @@ import Products from "./routes/Products/Products.route";
 function App() {
 	return (
 		<Routes>
-			<Route path="/" element={<MainNavigation />}>
+			<Route path="/FrontEndMentoProjects/*" element={<MainNavigation />}>
 				<Route index element={<Home />} />
 				<Route path="about" element={<About />} />
 				<Route path="contact" element={<Contact />} />
