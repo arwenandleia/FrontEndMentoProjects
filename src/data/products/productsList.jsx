@@ -3,6 +3,7 @@ import SocialLinksProfile from "../../components/FrontEndMentor/SocialLinksProfi
 import FEContactForm from "../../components/FrontEndMentor/FEContactForm/FEContactForm.component";
 import NewsLetterSignUp from "../../components/FrontEndMentor/NewsLetterSignUp/NewsLetterSignUp.component";
 import ThreeColumnPreview from "../../components/FrontEndMentor/ThreeColumnPreview/ThreeColumnPreview.component";
+import EcommerceProductPage from "../../components/FrontEndMentor/EcommerceProductPage/EcommerceProductPage.component";
 
 export const productsList = [
 	{
@@ -29,5 +30,10 @@ export const productsList = [
 		title: "Responsive 3 Column Preview Card",
 		linkTo: "threecolumnpreview",
 		component: <ThreeColumnPreview />,
+	},
+	{
+		title: "E-Commerce Product Page",
+		linkTo: "ecommerceproductpage",
+		component: <EcommerceProductPage />,
 	},
 ];
