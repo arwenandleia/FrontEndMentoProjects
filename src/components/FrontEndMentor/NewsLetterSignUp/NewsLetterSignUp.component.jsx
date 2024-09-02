@@ -41,6 +41,7 @@ const NewsLetterSignUp = () => {
 		if (!checkIsEmailValid(inputEmail)) {
 			setIsEmailValid(false);
 		} else {
+			setInputEmail("");
 			setIsSuccessfull(true);
 		}
 	};

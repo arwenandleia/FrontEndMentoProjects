@@ -42,6 +42,13 @@ export default {
 					white: "#FFFFFF",
 					lighttomato: "#FFCFCC",
 				},
+				ThreeColumnPreview: {
+					orange: "#E38826",
+					cyan: "#006970",
+					darkcyan: "#004241",
+					whitepara: "#FFFFFF",
+					lightgrey: "#F2F2F2",
+				},
 			},
 		},
 	},

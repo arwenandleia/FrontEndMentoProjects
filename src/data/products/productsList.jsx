@@ -2,6 +2,7 @@ import FaqAccordion from "../../components/FrontEndMentor/FaqAccordion/FaqAccord
 import SocialLinksProfile from "../../components/FrontEndMentor/SocialLinksProfile/SocialLinksProfile.component";
 import FEContactForm from "../../components/FrontEndMentor/FEContactForm/FEContactForm.component";
 import NewsLetterSignUp from "../../components/FrontEndMentor/NewsLetterSignUp/NewsLetterSignUp.component";
+import ThreeColumnPreview from "../../components/FrontEndMentor/ThreeColumnPreview/ThreeColumnPreview.component";
 
 export const productsList = [
 	{
@@ -23,5 +24,10 @@ export const productsList = [
 		title: "Newsletter sign-up with success message",
 		linkTo: "newslettersignup",
 		component: <NewsLetterSignUp />,
+	},
+	{
+		title: "Responsive 3 Column Preview Card",
+		linkTo: "threecolumnpreview",
+		component: <ThreeColumnPreview />,
 	},
 ];
