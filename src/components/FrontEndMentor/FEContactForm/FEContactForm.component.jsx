@@ -85,7 +85,13 @@ const FEContactForm = () => {
 				<div className="absolute bottom-full flex justify-center w-full z-20">
 					<div className=" bg-green-950 text-FEContactForm-white w-2/3 p-3 rounded-lg ">
 						<div className="text-white ">
-							<p className="font-bold text-md">Success Message</p>
+							<p className="font-bold text-md">
+								{" "}
+								<span className="rounded-full border-2 border-FEContactForm-white px-0.5 ">
+									&#10003;
+								</span>{" "}
+								Success Message
+							</p>
 							<p className="text-sm">
 								Thanks for completing the form. We'll be in touch soon
 							</p>
