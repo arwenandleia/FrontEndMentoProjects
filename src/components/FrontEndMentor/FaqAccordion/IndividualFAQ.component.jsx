@@ -17,19 +17,23 @@ const IndividualFAQ = ({ faq }) => {
 				</div>
 				<div className="plusorminus shrink-0">
 					{!isOpen ? (
-						<img
-							src={iconPlus}
-							alt="plus"
-							onClick={toggleIsOpen}
-							className="cursor-pointer  "
-						/>
+						<button role="tab">
+							<img
+								src={iconPlus}
+								alt="plus"
+								onClick={toggleIsOpen}
+								className="cursor-pointer  "
+							/>
+						</button>
 					) : (
-						<img
-							src={iconMinus}
-							alt="minus"
-							onClick={toggleIsOpen}
-							className="cursor-pointer  "
-						/>
+						<button role="tab">
+							<img
+								src={iconMinus}
+								alt="minus"
+								onClick={toggleIsOpen}
+								className="cursor-pointer  "
+							/>
+						</button>
 					)}
 				</div>
 			</div>
