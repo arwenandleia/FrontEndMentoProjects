@@ -10,7 +10,7 @@ const ProductSpecific = () => {
 
 	return (
 		<div className="">
-			<h2 className="text-4xl">{productInUse.title} </h2>
+			<h2 className="text-4xl w-full text-center">{productInUse.title} </h2>
 			<div className="">{productInUse.component}</div>
 		</div>
 	);

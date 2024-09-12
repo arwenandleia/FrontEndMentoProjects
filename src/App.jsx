@@ -5,6 +5,8 @@ import MainNavigation from "./routes/MainNavigation.route";
 import About from "./pages/About.page";
 import Contact from "./pages/Contact.page";
 import Products from "./routes/Products/Products.route";
+import Limousine from "./routes/Limousine/Limousine.route";
+import Upwork from "./routes/Upwork/Upwork.route";
 
 function App() {
 	return (
@@ -15,6 +17,8 @@ function App() {
 				<Route path="contact" element={<Contact />} />
 				<Route path="products/*" element={<Products />} />
 			</Route>
+			<Route path="/limousine/*" element={<Limousine />} />
+			<Route path="/upwork/*" element={<Upwork />} />
 		</Routes>
 	);
 }
